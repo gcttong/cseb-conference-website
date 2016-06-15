@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<!--
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+
+	<title>Getting Here - CSEB Winnipeg 2016</title>
+
+    <style>
+      #map {
+        width: 700px;
+        height: 400px;
+        background-color: #CCC;
+
+      }
+    </style>
+  
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-xlarge.css" />
+	</noscript>
+</head>
+<body id="top">
+
+	<!-- Header -->
+	<header id="header" class="skel-layers-fixed">
+		
+		<nav id="nav">
+			<ul>
+        <li><a href="https://www.facebook.com/csebwpg2016/timeline" class="icon fa-facebook-square"><span class="label">Facebook</span></a></li>
+              <li><a href="https://www.linkedin.com/groups/8531293" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+				<li><a href="https://twitter.com/csebwpg2016" class="icon fa-twitter"><span class="label">Twitter</span>@CSEBWPG2016</a></li>
+				<li>June 8-10, 2016</li>
+					<li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Sponsors.html">Sponsors</a></li>
+            
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="Speakers.html">Speakers</a></li>
+            <li><a href="Workshops.html">Workshops</a></li>
+            <li><a href="Schedule.html">Schedule</a></li>
+            <li><a href="Getting Here.html">Getting Here</a></li>
+            <li><a href="presentationinfo.html">Presenters</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Main -->
+	<section id="main" class="wrapper style1">
+		<header class="major">
+			<h2>Getting Here</h2>
+			<p>The conference is being held at the University of Manitoba, Bannatyne Campus, which is a short drive from the Winnipeg airport and is close to downtown.</p>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="8u">
+					<section>
+						<h2>Map</h2>
+						<div id="map"></div>
+						 <script>
+
+
+      function initMap() {
+      	var myCenter=new google.maps.LatLng(49.9042073,-97.1604514);
+        var mapDiv = document.getElementById('map');
+       
+
+
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 49.9042073, lng: -97.1604514},
+          zoom: 16
+        });
+
+        var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Brodie Centre, University of Manitoba</h1>'+
+      '<div id="bodyContent">'+
+      '<p> 727 Mcdermot Ave, Winnipeg, Manitoba, Canada ' +
+      
+      '<a href="https://www.google.com/maps/place/Brodie+Centre/@49.9041921,-97.1625631,17z/data=!3m1!4b1!4m2!3m1!1s0x52ea73dc5777329f:0x3a90798800ec2cef?hl=en-US"><FONT COLOR="4285F4">View on Google Maps</FONT></a></p>'+
+      '</div>'+
+      '</div>';
+
+      var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker=new google.maps.Marker({
+  position:myCenter,
+  map: map, title: 'Hello World'
+  });
+       
+
+
+          
+
+          marker.setMap(map);
+          infowindow.open(map, marker);
+          marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+
+      }
+    </script>
+
+						<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+         async defer></script>
+
+
+
+						
+
+						
+
+							
+
+							<h2>WestJet 10% off Promotion Details-Use promo code YWG02 and coupon code KYX9TGL</h2>
+							<p>The discount is valid for WestJet flights into and out of Winnipeg, Manitoba. The discount applies to the travel period June 1 to June 17, 2016. Both the promotional code and coupon code must be entered on the first step of booking a flight using the Book-a-Flight widget on  <a href="http://www.westjet.com"><FONT COLOR="000066">www.westjet.com</FONT></a> 
+
+								
+							</p>
+
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<h3>Flying into Winnipeg?</h3>
+							<a href="http://www.westjet.com" class="image fit"><img src="images/WestJet_logo_rgb.png" alt="" /></a>
+							<p>Get 10% off airfare when you book with WestJet! Use promo code YWG02 and coupon code KYX9TGL. See below for details!</p>
+							<ul class="actions">
+								<li><a href="http://www.westjet.com" class="button alt">Book Here!</a></li>
+							</ul>
+						</section>
+						
+						<section>
+							<h3>Mailing Address</h3>
+							<p>S113 Medical Services Building (Bannatyne Campus) University of Manitoba</p>
+							<p> 750 Bannatyne Avenue Winnipeg, Manitoba, Canada R3E 0W3 </p>
+						</section>
+						<hr />
+						
+					</div>
+				</div>
+				<hr class="major" />
+				<div class="row">
+					<div class="4u">
+						<section class="special">
+							<a href="#" class="image fit"><img src="images/bus_seat.jpg" alt="" /></a>
+							<h3>Public Transportation</h3>
+							<p>The Winnipeg Transit fare is $2.65/ride. Taxi- Instruct the driver to go to the Bannatyne Campus at the University of Manitoba at 727 Mcdermot Ave.</p>
+							<ul class="actions">
+								<li><a href="http://www.winnipegtransit.com" class="button alt">Learn More</a></li>
+							</ul>
+						</section>
+					</div>
+
+					<div class="4u">
+						<section class="special">
+							<a href="#" class="image fit"><img src="images/hotel.jpg" alt="" /></a>
+							<h3>Need somewhere to stay? </h3>
+							<p>We have reserved a block of hotel rooms at Canad Inns Destination Centre Health Sciences Centre from June 7th to June 9th. The hotel is connected to the campus (720 William Avenue, Winnipeg MB, R3E 3J7). For toll free reservations call 1-888-33-CANAD (2-2623) and indicate you are booking a room under “U of MB CSEB conference” or “Group #126575”. Canad Inns will provide a guest room rate of $122 per night (plus taxes) based on single or double occupancy in a Standard Guest Room.
+Canad Inns provides shuttle service between the airport and the hotel. To arrange the shuttle, call in advance to ensure availability.
+</p>
+
+<ul class="actions">
+								<li><a href="https://www.canadinns.com/stay/health-sciences-centre/home/" class="button alt">Book Here</a></li>
+							</ul>
+
+						</section>
+					</div>
+					<div class="4u">
+						<section class="special">
+							<a href="#" class="image fit"><img src="images/brodie_centre.jpg" alt="" /></a>
+							<h3>Parking </h3>
+							<p>Parking is available near the Bannatyne Campus and Canad Inns</p>
+
+						</section>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+		
+	<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row double">
+					<div class="6u">
+						<div class="row collapse-at-2">
+							<div class="6u">
+								<h3>CSEB National Student Conference Winnipeg 2016</h3>
+								<ul class="alt">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="About.html">About</a></li>
+									<li><a href="Schedule.html">Schedule</a></li>
+									<li><a href="Getting Here.html">Getting Here</a></li>
+
+								</ul>
+							</div>
+							<div class="6u">
+								<h3>Further inquiries</h3>
+								<ul class="alt">
+									<p>Email: csebwpg2016@gmail.com </p>
+									<a href="#" class="image fit"><img src="images/conferencelogo.png" alt="" /></a>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				<div class="6u">
+						<h2><a href="http://csebca.ipage.com/wordpress/">Canadian Society of Epidemiology and Biostatistics</a></h2>
+						<p>The Canadian Society for Epidemiology and Biostatistics is a professional organization that fosters and promotes these two interrelated sciences to improve health and well-being through research and practice. </p>
+						<ul class="icons">
+							<li><a href="https://twitter.com/csebwpg2016" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/csebwpg2016/timeline" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.linkedin.com/groups/8531293" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="copyright">
+					<li>&copy; CSEB communications committee. All rights reserved.</li>
+					<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+					<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+	</html>
